@@ -9,3 +9,9 @@ nix-shell -p home-manager
 home-manager build --flake .
 home-manager switch --flake .
 ```
+
+### Run after
+
+```bash
+home-manager switch --flake ~/projects/home-manager
+```
